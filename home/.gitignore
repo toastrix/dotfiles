@@ -5,3 +5,4 @@
 tags-ja
 .~lock.*
 .projections.json
+.DS_Store
