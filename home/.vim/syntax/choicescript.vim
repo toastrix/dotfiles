@@ -1,6 +1,8 @@
 " Vim syntax file
 " Language:     ChoiceScript
-" Maintainer:   Ben Hamill
+" Maintainer:   Tracy Canfield
+" Adds additional ChoiceScript reserved words to the syntax
+" file created by Ben Hamill
 
 if exists("b:current_syntax")
     finish
@@ -21,13 +23,22 @@ syn match choicescriptConditional '\*elseif'
 syn match choicescriptConditional '\*selectable_if'
 
 syn match choicescriptCommands '\*disable_reuse'
+syn match choicescriptCommands '\*allow_reuse'
+syn match choicescriptCommands '\*hide_reuse'
 syn match choicescriptCommands '\*set'
 syn match choicescriptCommands '\*temp'
+syn match choicescriptCommands '\*rand'
 syn match choicescriptCommands '\*page_break'
 syn match choicescriptCommands '\*line_break'
 syn match choicescriptCommands '\*return'
 syn match choicescriptCommands '\*stat_chart'
 syn match choicescriptCommands '\*finish'
+syn match choicescriptCommands '\*ending'
+syn match choicescriptCommands '\*achieve'
+syn match choicescriptCommands '\*achievement'
+syn match choicescriptCommands '\*image'
+syn match choicescriptCommands '\*input_text'
+syn match choicescriptCommands '\*input_number'
 
 syn match choicescriptSetup '\*title'
 syn match choicescriptSetup '\*author'
